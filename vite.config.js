@@ -4,7 +4,6 @@
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/My-Seventh-website/",
   plugins: [
     react(),
     tailwindcss(),
