@@ -15,7 +15,7 @@ const Footer = ({theme}) => {
         <section className='flex justify-between lg:items-center max-lg:flex-col gap-10 '>
             {/* left */}
             <motion.div
-            initial={{opacity:0,x:-30}}
+            initial={{opacity:0,x:30}}
             whileInView={{opacity:1,x:0}}
             viewport={{once:true}}
             transition={{duration:0.6, delay:0.2}}
