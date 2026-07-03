@@ -12,10 +12,10 @@ const Footer = ({theme}) => {
     className='bg-slate-50 dark:bg-gray-900 pt-10 mt-20 sm:mt-40 px-4 sm:px-10 lg:px-24 xl:px-40 '>
 
         {/* fotter top */}
-        <section className='flex justify-between lg:items-center max-lg:flex-col gap-10 '>
+        <section className='flex justify-between lg:items-center max-lg:flex-col gap-10 overflow-hidden'>
             {/* left */}
             <motion.div
-            initial={{opacity:0,x:30}}
+            initial={{opacity:0,x:-30}}
             whileInView={{opacity:1,x:0}}
             viewport={{once:true}}
             transition={{duration:0.6, delay:0.2}}
